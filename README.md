@@ -189,7 +189,21 @@ Throughout the project, I used **Git** to save and store progress:
 2. Go to **Settings**.   
 3. Scroll down to the **GitHub Pages** section.  
 4. Under **Source**, select the **Main Branch**.  
-5. The page refreshes and a link to the live site appears.  
+5. The page refreshes and a link to the live site appears.
+**Deployment Issue**
+At first, the deployment did not work because GitHub created an extra folder inside the repository.  
+That folder contained the `assets/`, `index.html`, and `README.md` instead of placing them in the root of the repository.  
+Since GitHub Pages only looks for `index.html` in the **root** (or `/docs` if configured), the site returned a 404 error.
+
+**Fix**
+- Deleted the unnecessary inner folder.  
+- Moved `assets/`, `index.html`, and `README.md` to the root of the repository.  
+- Re-deployed from the `main` branch, root folder.  
+
+**Deployed Site**
+The live site can be viewed here:  
+👉 [Project Link](https://eandachew.github.io/milestone-project-2/)
+- 
 
 ### How to Run This Project Locally
 1. repository.
@@ -202,4 +216,5 @@ Throughout the project, I used **Git** to save and store progress:
 ### Content and code 
 - Game logic written by me using HTML, CSS, and JavaScript.
 ### Acknowledgement
+
 - Code Institute for getting me to this point
