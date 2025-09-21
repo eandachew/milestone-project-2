@@ -190,6 +190,7 @@ Throughout the project, I used **Git** to save and store progress:
 3. Scroll down to the **GitHub Pages** section.  
 4. Under **Source**, select the **Main Branch**.  
 5. The page refreshes and a link to the live site appears.
+
 **Deployment Issue**
 At first, the deployment did not work because GitHub created an extra folder inside the repository.  
 That folder contained the `assets/`, `index.html`, and `README.md` instead of placing them in the root of the repository.  
@@ -218,3 +219,4 @@ The live site can be viewed here:
 ### Acknowledgement
 
 - Code Institute for getting me to this point
+
